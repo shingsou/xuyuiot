@@ -11,6 +11,7 @@ Welcome to xuyuiot
    :maxdepth: 1
    :caption: 开放能力
 
+   2FE5810CBDB9F8793DD00D8DD5A3AD2F
    
 
 .. toctree::
