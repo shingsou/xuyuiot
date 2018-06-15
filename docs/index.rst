@@ -6,6 +6,9 @@ Welcome to xuyuiot
 
    introduction
    log
+   debug
+   access_token
+   resources
 
 .. toctree::
    :maxdepth: 1
@@ -18,6 +21,7 @@ Welcome to xuyuiot
    :maxdepth: 1
    :caption: 其他
 
+   cardstates
    permissions
    errorcodes
    issues
