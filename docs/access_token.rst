@@ -3,7 +3,7 @@
 
 .. Note::
 
-    获取access_token之前，请先向业务经理申请client_Id、client_secret、subscriptionKey。
+    获取access_token之前，请先申请client_Id、client_secret、subscriptionKey。:doc:`issues`
 
 
 - 调用各接口时都需使用access_token。开发者需要进行妥善保存。

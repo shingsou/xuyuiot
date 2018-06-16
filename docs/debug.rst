@@ -5,8 +5,8 @@
 
     调试前需准备:
 
-    - subscriptionKey           如何获取
-    - access_token      如何获取
+    - subscriptionKey   :doc:`access_token`
+    - access_token      :doc:`access_token`
 
 
 网页调试
