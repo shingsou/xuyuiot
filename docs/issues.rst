@@ -14,11 +14,15 @@
 
 .. raw:: html
 
-    <a class="btn btn-neutral" href="https://github.com/seven1986/Game5.0/issues">反馈</a>
+    <a class="btn btn-neutral" href="https://github.com/shingsou/xuyuiot/issues">反馈</a>
 
 
 |
 
 
 
-    如果阅读在线帮助文档无法帮助您解决开发过程中遇到的具体问题，请您打电话：400-626-5529或发邮件到712086838@qq.com，我们会在第一时间给予您回复。
+    如果阅读在线帮助文档无法帮助您解决开发过程中遇到的具体问题。
+
+    联系电话：400-626-5529
+
+    联系邮件：712086838@qq.com

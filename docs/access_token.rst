@@ -9,7 +9,7 @@
 - 调用各接口时都需使用access_token。开发者需要进行妥善保存。
 - access_token的有效期目前为24个小时。
 
-公众平台的API调用所需的access_token的使用及生成方式说明：
+平台的API调用所需的access_token使用及生成方式说明：
 
 1、建议开发者使用中控服务器统一获取和刷新Access_token，其他业务逻辑服务器所使用的access_token均来自于该中控服务器，不应该各自去刷新，否则容易造成冲突，导致access_token覆盖而影响业务；
 
