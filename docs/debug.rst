@@ -1,11 +1,13 @@
 ﻿﻿调试接口
 ========
 
+    接口调用地址：https://openapis.shingsou.com
+
 .. Note::
 
     调试前需准备:
 
-    - subscriptionKey   :doc:`access_token`
+    - subscriptionKey，订阅产品后，会自动生成。
     - access_token      :doc:`access_token`
 
 

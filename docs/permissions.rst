@@ -1,9 +1,12 @@
 权限码表
 =========
 
-::
+物联卡
+---------
 
-    [
+.. code-block:: javascript
+    :linenos:
+
       {
         "code": "iot.cardservice.all",
         "name": "所有权限",
@@ -45,6 +48,10 @@
         "name": "流量卡 - 类目",
       },
       {
+        "code": "iot.cardservice.flowcard.reality",
+        "name": "流量卡 - 实名认证",
+      },
+      {
         "code": "iot.cardservice.flowcard.importhistory",
         "name": "流量卡 - 导卡记录",
       },
@@ -53,20 +60,12 @@
         "name": "流量卡 - 导卡",
       },
       {
-        "code": "iot.cardservice.flowcard.transferhistory",
-        "name": "流量卡 - 划卡记录",
-      },
-      {
-        "code": "iot.cardservice.flowcard.transfer",
-        "name": "流量卡 - 划卡",
-      },
-      {
         "code": "iot.cardservice.flowcard.network",
         "name": "流量卡 - 停复机",
       },
       {
-        "code": "iot.cardservice.flowcard.status",
-        "name": "流量卡 - 查状态",
+        "code": "iot.cardservice.flowcard.transfer",
+        "name": "流量卡 - 划卡",
       },
       {
         "code": "iot.cardservice.flowcard.data",
@@ -85,11 +84,35 @@
         "name": "流量卡 - 详情",
       },
       {
-        "code": "iot.cardservice.flowcard.reality",
-        "name": "流量卡 - 实名认证",
-      },
-      {
         "code": "iot.cardservice.flowcard.get",
         "name": "流量卡 - 列表",
+      },
+      {
+        "code": "iot.cardservice.flowcard.transferhistory",
+        "name": "流量卡 - 划卡记录",
+      },
+      {
+        "code": "iot.cardservice.flowcard.status",
+        "name": "流量卡 - 查状态",
       }
-    ]
+
+
+支付网关
+---------
+
+    {
+        "code": "iot.paymentservice.order.get",
+        "name": "订单 - 列表",
+      },
+      {
+        "code": "iot.paymentservice.order.statistic",
+        "name": "订单 - 统计",
+      },
+      {
+        "code": "iot.paymentservice.order.all",
+        "name": "订单 - 所有权限",
+      },
+      {
+        "code": "iot.paymentservice.all",
+        "name": "所有权限",
+      }
