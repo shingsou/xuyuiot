@@ -100,6 +100,9 @@
 支付网关
 ---------
 
+    .. code-block:: javascript
+    :linenos:
+
     {
         "code": "iot.paymentservice.order.get",
         "name": "订单 - 列表",
