@@ -1,0 +1,48 @@
+支付网关
+=================
+.. Note::
+
+	支付网关、订单查询
+
+订单
+----------------------
+
+列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.paymentservice.order.get</code>	<label>User Permissions：</label>	<code>iot.paymentservice.order.get</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/order-get">Link</a>
+	</p>
+
+|
+
+统计（今日、昨日、7天）
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.paymentservice.order.statistic</code>	<label>User Permissions：</label>	<code>iot.paymentservice.order.statistic</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/order-statistic">Link</a>
+	</p>
+
+|
+
+错误码表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	订单代码对照表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/order-codes">Link</a>
+	</p>
+
+|
+
