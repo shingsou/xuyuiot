@@ -1,0 +1,39 @@
+IOT.PaymentService
+=================
+.. Note::
+
+	undefined
+
+订单
+----------------------
+
+列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.paymentservice.order.get</code>	<label>User Permissions：</label>	<code>iot.paymentservice.order.get</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://iot-paymentservice.chinacloudsites.cn/swagger/v1/operations/order/get">Link</a>
+	</p>
+
+|
+
+
+支付网关
+----------------------
+
+创建支付请求
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	
+	<br /><br />
+	<a class="btn btn-neutral" href="https://iot-paymentservice.chinacloudsites.cn/swagger/v1/operations/payment/post">Link</a>
+	</p>
+
+|
+
