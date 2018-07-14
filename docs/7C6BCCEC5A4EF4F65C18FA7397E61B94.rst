@@ -1,4 +1,4 @@
-IOT.PaymentService
+支付网关
 =================
 .. Note::
 
@@ -13,7 +13,10 @@ IOT.PaymentService
 .. raw:: html
 
 	<p>
-	<label>Client Scopes：</label>	<code>iot.paymentservice.order.get</code>	<label>User Permissions：</label>	<code>iot.paymentservice.order.get</code>
+	<label>Client Scopes：</label>
+	<code>iot.paymentservice.order.get</code>
+	<label>User Permissions：</label>
+	<code>iot.paymentservice.order.get</code>
 	<br /><br />
 	<a class="btn btn-neutral" href="https://iot-paymentservice.chinacloudsites.cn/swagger/v1/operations/order/get">Link</a>
 	</p>
