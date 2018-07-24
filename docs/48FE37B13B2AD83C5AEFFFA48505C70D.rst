@@ -76,3 +76,33 @@
 
 |
 
+
+充值套餐
+----------------------
+
+列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	充值套餐 - 列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/product-get">Link</a>
+	</p>
+
+|
+
+分类
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	充值套餐 - 分类
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/product-categories">Link</a>
+	</p>
+
+|
+
