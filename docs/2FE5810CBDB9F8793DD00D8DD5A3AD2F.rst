@@ -1,286 +1,0 @@
-物联卡
-=================
-.. Note::
-
-	集三大运营商专为物联网应用提供的流量卡，相比传统的流量卡，物联卡拥有资费低、安全、通信效率高等特点。 解决方案涵盖：车联网、共享单车、视频监控、城市智能路灯、pos机、警用巡逻车、自动售卖机等。
-
-充值卡
-----------------------
-
-列表
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.datacard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.datacard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/datacard-get">Link</a>
-	</p>
-
-|
-
-充值记录
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.datacard.history</code>	<label>User Permissions：</label>	<code>iot.cardservice.datacard.history</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/datacard-history">Link</a>
-	</p>
-
-|
-
-批量划卡
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.datacard.transfer</code>	<label>User Permissions：</label>	<code>iot.cardservice.datacard.transfer</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/datacard-transfer">Link</a>
-	</p>
-
-|
-
-制卡
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.datacard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.datacard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/datacard-generate">Link</a>
-	</p>
-
-|
-
-错误码表
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	充值卡代码对照表
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/datacard-codes">Link</a>
-	</p>
-
-|
-
-
-流量卡
-----------------------
-
-列表
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-get">Link</a>
-	</p>
-
-|
-
-详情
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-detail">Link</a>
-	</p>
-
-|
-
-更新
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-put">Link</a>
-	</p>
-
-|
-
-批量更新
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-patch">Link</a>
-	</p>
-
-|
-
-查流量
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-data">Link</a>
-	</p>
-
-|
-
-查状态
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-status">Link</a>
-	</p>
-
-|
-
-停复机
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-network">Link</a>
-	</p>
-
-|
-
-划卡记录
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-transferhistory">Link</a>
-	</p>
-
-|
-
-划卡
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-transfer">Link</a>
-	</p>
-
-|
-
-导卡记录
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-importhistory">Link</a>
-	</p>
-
-|
-
-导卡
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-import">Link</a>
-	</p>
-
-|
-
-实名认证
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-reality">Link</a>
-	</p>
-
-|
-
-类目
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-types">Link</a>
-	</p>
-
-|
-
-分类
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-categories">Link</a>
-	</p>
-
-|
-
-标签
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	<label>Client Scopes：</label>	<code>iot.cardservice.flowcard.get</code>	<label>User Permissions：</label>	<code>iot.cardservice.flowcard.get</code>
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-tags">Link</a>
-	</p>
-
-|
-
-错误码表
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-
-	<p>
-	流量卡代码对照表
-	<br /><br />
-	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/2/operations/flowcard-codes">Link</a>
-	</p>
-
-|
-
