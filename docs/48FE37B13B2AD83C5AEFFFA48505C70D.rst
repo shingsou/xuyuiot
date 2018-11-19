@@ -20,7 +20,7 @@
 
 |
 
-统计（今日、昨日、7天）
+统计
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. raw:: html
@@ -42,6 +42,66 @@
 	订单代码对照表
 	<br /><br />
 	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/order-codes">Link</a>
+	</p>
+
+|
+
+
+支付网关
+----------------------
+
+错误码表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	支付网关代码对照表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/payment-codes">Link</a>
+	</p>
+
+|
+
+创建支付请求
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/payment-post">Link</a>
+	</p>
+
+|
+
+
+充值套餐
+----------------------
+
+列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	充值套餐 - 列表
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/product-get">Link</a>
+	</p>
+
+|
+
+分类
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	充值套餐 - 分类
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/3/operations/product-categories">Link</a>
 	</p>
 
 |

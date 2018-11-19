@@ -4,7 +4,7 @@
 .. Note::
 
     获取access_token之前，请先申请client_Id、client_secret    :doc:`issues`
-
+    申请成功后client_Id具有所有接口权限。（默认情况下）
 
 - 调用各接口时都需使用access_token。开发者需要进行妥善保存。
 - access_token的有效期目前为24个小时。
