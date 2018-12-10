@@ -9,7 +9,7 @@
    debug
    access_token
    resources
-
+   registerclient
 
 .. toctree::
    :maxdepth: 1
