@@ -22,6 +22,9 @@
 网站应用
 ________________________
 
+1,获取授权码
+--------------
+
 https请求方式: GET
  
 请求地址：https://ids.shingsou.com/connect/authorize/callback?response_type=&client_id=&redirect_uri=&scope=&state
@@ -29,9 +32,9 @@ https请求方式: GET
 .. code-block:: javascript
     :linenos:
 
-     // 参数说明
+     // 请求参数说明
 
-    response_type: code //固定
+    response_type: code //固定写code
     
     client_id: {client_id} //应用的client_id
     
@@ -39,10 +42,54 @@ https请求方式: GET
     // 回调地址必须合法，需要在开放平台中配置
     redirect_uri: {redirect_uri} 
     
+    // 权限集合，用英文空格分隔
     scope: openid profile iot.cardservice.all iot.paymentservice.all
 
+    // 必传
     state: {随机字符串}
 
+2,获取access_token_
+-------------------
+
+.. code-block:: javascript
+    :linenos:
+
+    
+    $(function () { 
+
+        var AuthCode='第一步获取到的授权码';
+        var client_id = '应用id';
+        var client_secret = '应用密钥';
+        var redirect_uri= '第一步传入的回调地址';
+
+        var form = new FormData();
+        form.append("grant_type", "authorization_code");
+        form.append("code", AuthCode);
+        form.append("client_id", client_id);
+        form.append("client_secret", client_secret);
+        form.append("redirect_uri", redirect_uri);
+
+        var settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "https://ids.shingsou.com/connect/token",
+            "method": "POST",
+            "headers": {
+                "cache-control": "no-cache",
+            },
+            "processData": false,
+            "contentType": false,
+            "mimeType": "multipart/form-data",
+            "data": form
+        }
+
+        $.ajax(settings).done(function (response)
+        {
+            var resulrJson = JSON.parse(response);
+        }).fail(function (err) {      
+            alert(err.responseText);
+         });
+    });
 
 网站应用 - 示例
 ____________________

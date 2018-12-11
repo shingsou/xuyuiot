@@ -3,7 +3,7 @@
 
 .. Note::
 
-    创建应用，根据获取 :doc:`access_token` 教程，用client_id和client_secret获取access_token。
+    创建应用，根据 :doc:`access_token` 教程，用client_id和client_secret获取access_token。
 
 
 应用权限（默认）
