@@ -1,0 +1,559 @@
+支付网关v2
+=================
+.. Note::
+
+	多商户版支付网关：✔支付宝、✔微信支付。订单创建、查询、退款和自定义接收支付通知等操作。
+
+支付宝
+----------------------
+
+电脑网站支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/270	<label>Client Scopes：</label><code>iot.payment.alipay.webpay</code><label>User Permissions：</label><code>iot.payment.alipay.webpay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-webpay">Link</a>
+	</p>
+
+|
+
+手机网站支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/203	<label>Client Scopes：</label><code>iot.payment.alipay.wappay</code><label>User Permissions：</label><code>iot.payment.alipay.wappay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-wappay">Link</a>
+	</p>
+
+|
+
+APP支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/204	<label>Client Scopes：</label><code>iot.payment.alipay.apppay</code><label>User Permissions：</label><code>iot.payment.alipay.apppay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-apppay">Link</a>
+	</p>
+
+|
+
+扫码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_1/alipay.trade.precreate	<label>Client Scopes：</label><code>iot.payment.alipay.scanpay</code><label>User Permissions：</label><code>iot.payment.alipay.scanpay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-scanpay">Link</a>
+	</p>
+
+|
+
+条码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_1/alipay.trade.pay	<label>Client Scopes：</label><code>iot.payment.alipay.barcodepay</code><label>User Permissions：</label><code>iot.payment.alipay.barcodepay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-barcodepay">Link</a>
+	</p>
+
+|
+
+交易查询
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_1/alipay.trade.query	<label>Client Scopes：</label><code>iot.payment.alipay.query</code><label>User Permissions：</label><code>iot.payment.alipay.query</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-query">Link</a>
+	</p>
+
+|
+
+交易退款
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_1/alipay.trade.refund	<label>Client Scopes：</label><code>iot.payment.alipay.refund</code><label>User Permissions：</label><code>iot.payment.alipay.refund</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-refund">Link</a>
+	</p>
+
+|
+
+退款查询
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_1/alipay.trade.fastpay.refund.query	<label>Client Scopes：</label><code>iot.payment.alipay.refundquery</code><label>User Permissions：</label><code>iot.payment.alipay.refundquery</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-refundquery">Link</a>
+	</p>
+
+|
+
+交易撤销
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_1/alipay.trade.cancel	<label>Client Scopes：</label><code>iot.payment.alipay.cancel</code><label>User Permissions：</label><code>iot.payment.alipay.cancel</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-cancel">Link</a>
+	</p>
+
+|
+
+交易关闭
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_1/alipay.trade.close	<label>Client Scopes：</label><code>iot.payment.alipay.close</code><label>User Permissions：</label><code>iot.payment.alipay.close</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-close">Link</a>
+	</p>
+
+|
+
+单笔转账
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_28/alipay.fund.trans.toaccount.transfer	<label>Client Scopes：</label><code>iot.payment.alipay.transfer</code><label>User Permissions：</label><code>iot.payment.alipay.transfer</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-transfer">Link</a>
+	</p>
+
+|
+
+转账查询
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_28/alipay.fund.trans.order.query	<label>Client Scopes：</label><code>iot.payment.alipay.transferquery</code><label>User Permissions：</label><code>iot.payment.alipay.transferquery</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-transferquery">Link</a>
+	</p>
+
+|
+
+下载对账单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://docs.open.alipay.com/api_15/alipay.data.dataservice.bill.downloadurl.query	<label>Client Scopes：</label><code>iot.payment.alipay.billdownload</code><label>User Permissions：</label><code>iot.payment.alipay.billdownload</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-billdownload">Link</a>
+	</p>
+
+|
+
+商户列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.alipay.merchants</code>	<label>User Permissions：</label>	<code>iot.payment.alipay.merchants</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-merchants">Link</a>
+	</p>
+
+|
+
+更新商户
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.alipay.putmerchant</code>	<label>User Permissions：</label>	<code>iot.payment.alipay.putmerchant</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-putmerchant">Link</a>
+	</p>
+
+|
+
+添加商户
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.alipay.postmerchant</code>	<label>User Permissions：</label>	<code>iot.payment.alipay.postmerchant</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-postmerchant">Link</a>
+	</p>
+
+|
+
+删除商户
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.alipay.deletemerchant</code>	<label>User Permissions：</label>	<code>iot.payment.alipay.deletemerchant</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/alipay-deletemerchant">Link</a>
+	</p>
+
+|
+
+
+微支付
+----------------------
+
+公众号支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=7_1	<label>Client Scopes：</label><code>iot.payment.wechatpay.publicpay</code><label>User Permissions：</label><code>iot.payment.wechatpay.publicpay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-publicpay">Link</a>
+	</p>
+
+|
+
+APP支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_1	<label>Client Scopes：</label><code>iot.payment.wechatpay.apppay</code><label>User Permissions：</label><code>iot.payment.wechatpay.apppay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-apppay">Link</a>
+	</p>
+
+|
+
+小程序支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=7_3	<label>Client Scopes：</label><code>iot.payment.wechatpay.appletpay</code><label>User Permissions：</label><code>iot.payment.wechatpay.appletpay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-appletpay">Link</a>
+	</p>
+
+|
+
+H5支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/H5.php?chapter=15_1	<label>Client Scopes：</label><code>iot.payment.wechatpay.wappay</code><label>User Permissions：</label><code>iot.payment.wechatpay.wappay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-wappay">Link</a>
+	</p>
+
+|
+
+扫码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=6_1	<label>Client Scopes：</label><code>iot.payment.wechatpay.scanpay</code><label>User Permissions：</label><code>iot.payment.wechatpay.scanpay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-scanpay">Link</a>
+	</p>
+
+|
+
+条码支付
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://pay.weixin.qq.com/wiki/doc/api/micropay.php?chapter=5_1	<label>Client Scopes：</label><code>iot.payment.wechatpay.barcodepay</code><label>User Permissions：</label><code>iot.payment.wechatpay.barcodepay</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-barcodepay">Link</a>
+	</p>
+
+|
+
+查询订单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.query</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.query</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-query">Link</a>
+	</p>
+
+|
+
+申请退款
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.refund</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.refund</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-refund">Link</a>
+	</p>
+
+|
+
+查询退款
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.refundquery</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.refundquery</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-refundquery">Link</a>
+	</p>
+
+|
+
+关闭订单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.close</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.close</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-close">Link</a>
+	</p>
+
+|
+
+撤销订单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.cancel</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.cancel</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-cancel">Link</a>
+	</p>
+
+|
+
+企业付款到零钱
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.transfer</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.transfer</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-transfer">Link</a>
+	</p>
+
+|
+
+查询企业付款零钱
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.transferquery</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.transferquery</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-transferquery">Link</a>
+	</p>
+
+|
+
+获取RSA公钥
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.publickey</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.publickey</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-publickey">Link</a>
+	</p>
+
+|
+
+企业付款到银行卡
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.transfertobank</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.transfertobank</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-transfertobank">Link</a>
+	</p>
+
+|
+
+查询企业付款银行卡
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.transfertobankquery</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.transfertobankquery</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-transfertobankquery">Link</a>
+	</p>
+
+|
+
+下载对账单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.billdownload</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.billdownload</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-billdownload">Link</a>
+	</p>
+
+|
+
+下载资金账单
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.fundflowdownload</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.fundflowdownload</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-fundflowdownload">Link</a>
+	</p>
+
+|
+
+获取OpenId
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	微支付 - 获取OpenId
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-oauth">Link</a>
+	</p>
+
+|
+
+小程序登录
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	官方文档：https://developers.weixin.qq.com/minigame/dev/api/open-api/login/code2Session.html
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-code2session">Link</a>
+	</p>
+
+|
+
+商户列表
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.merchants</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.merchants</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-merchants">Link</a>
+	</p>
+
+|
+
+更新商户
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.putmerchant</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.putmerchant</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-putmerchant">Link</a>
+	</p>
+
+|
+
+添加商户
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.postmerchant</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.postmerchant</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-postmerchant">Link</a>
+	</p>
+
+|
+
+上传支付证书
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.uploadcert</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.uploadcert</code>	            证书类型必须是x-pkcs12，上传成功后返回证书名称
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-uploadcert">Link</a>
+	</p>
+
+|
+
+删除商户
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+	<p>
+	<label>Client Scopes：</label>	<code>iot.payment.wechatpay.deletemerchant</code>	<label>User Permissions：</label>	<code>iot.payment.wechatpay.deletemerchant</code>
+	<br /><br />
+	<a class="btn btn-neutral" href="https://portal.shingsou.com/docs/services/4/operations/wechatpay-deletemerchant">Link</a>
+	</p>
+
+|
+
